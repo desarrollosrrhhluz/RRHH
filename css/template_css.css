@@ -1,0 +1,225 @@
+body{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size:13px;
+	margin-left:25px;
+	margin-right:25px;
+	
+}
+.cuerpo{
+	background-color:#ffffff;
+/*	height: 505px;*/
+}
+p{
+
+font-size:12px;
+}
+
+/* -------------------------------estilo para formularios----------- */	
+/* fif = forminputfield 
+   fs  = formselect
+   fib = frominputbutton
+   fl  = fieldlabel
+*/
+fieldset{
+	color: #666;
+	background: transparent url('../images/color_dependencia.png') repeat-x left top;
+	padding-top: 6px;
+	border: solid 1px #dddddd;
+	border-bottom: solid 8px #dddddd;
+	margin: 10px 0px;
+}
+legend{
+	color: #666;
+	font: 13px Arial;
+	font-weight: bold;
+	background-color: #ffffff;;
+	padding: 2px;
+}
+label{
+/*	font-weight: bold;
+	line-height: normal;*/
+	text-align: right;
+	display: block;
+	margin-right: 10px;
+	position: relative;
+	width: 170px;
+	float: left;
+	/*padding: 2px;
+	border: 1px solid transparent;*/
+}
+label.fl{
+	display: inline;
+	float: none;
+}
+input.fif{
+	border: solid 1px #bbbbaa;
+	background-color: #ffffff;
+	color: #333;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+input.fif:hover{
+	background-color: #ffffff;
+	border: solid 1px #666655;
+	color: #000;
+}
+textarea.fif{
+	border: solid 1px #bbbbaa;
+	background-color: #ffffff;
+	color: #333;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+textarea.fif:hover{
+	background-color: #eeeedd;
+	border: solid 1px #666655;
+	color: #000;
+}
+select.fs{
+	border: solid 1px #bbbbaa;
+	background-color: #ffffff;
+	color: #333;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+select.fs:hover{
+	background-color: #ffffff;
+	border: 1px solid #666655;
+	cursor: pointer;
+	color: #000;
+}
+input.fib{
+	color: #300;
+	text-align: center;
+	vertical-align: middle;
+}
+input.fib:hover{
+
+}
+
+a.fib:link, a.fib:visited {
+	color: #333333;
+	border-bottom: 1px dotted #333333;
+	text-decoration: none;
+}
+
+a.fib:hover, a.fib:active {
+	color: #555555;
+}
+#contenedor{
+    width: 100%; /*700px;*/
+    /*margin: 0px auto;*/
+    text-align: left;
+}
+#banner{
+/*	background: url(../images/patron.PNG) top left repeat;
+    width: 100%;
+    height: 85px;
+    margin: 0px;
+    padding: 0px;*/
+}
+#formulario{
+    width: 45%;/*450px;*/
+    padding: 10px;
+    float: left;
+
+}
+#descripcion{
+    margin-left: 50%; /*460px;*/
+    width: 45%;
+    /*height: 250px;
+    padding: 20px;*/
+}
+/********************capas************************** */
+#capaBloqueo{
+    display:none;
+    background-color:#000;
+    position:absolute; 
+    left:0px; 
+    top:0px; 
+    width:2700px; 
+    height:2700px;
+    -moz-opacity:.4;   
+    filter:alpha(opacity=40);
+    opacity:.4;
+    z-index:998;
+}
+#capaMsj{
+    font-size:12pt;
+    display:none;
+    position: absolute;
+    text-align: center;
+    height:50px;
+    width:150px;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left: -75px;
+    z-index:999;
+
+}
+#overDiv{
+    position:absolute;
+    visibility:hidden;
+    z-index:1000;
+}
+/* ******************************* modificaciones ***************************/
+#loading {
+	height: 35px;
+	padding: 0;
+	margin: 0;
+}
+#loading img {
+	margin:0;
+	margin-left: 25px;
+	padding: 0;
+	display: none;
+}
+
+
+table.table_redon {        
+		border: 2px solid #3366C0;
+        padding: 3px 10px;
+		font-family: Helvetica,Arial,sans-serif;
+		background-color: rgb(243, 243, 243);
+		font-weight: bold;
+		-moz-border-radius-topleft: 10px;
+		-moz-border-radius-topright: 10px;
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+}
+table.table_red {        
+		border: 2px solid #ffffff;
+        padding: 3px 3px;
+		font-family: Helvetica,Arial,sans-serif;
+		background-color: rgb(243, 243, 243);						
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+}			
+
+.titulo{
+	color: #666;
+	font: 16px Arial;
+	font-weight: bold;
+	background-color: #ffffff;;
+	padding: 0px;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+}
+
+.Documentos{
+	color: #666;
+	font: 11px arial;
+    background-color: #ffffff;;
+	padding: 0px;
+	line-height:30px;
+	
+	
+}
+
+
+

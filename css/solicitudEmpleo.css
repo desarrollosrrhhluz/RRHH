@@ -1,0 +1,161 @@
+/* 
+    Document   : solicitudEmpleo
+    Created on : 06/02/2009, 03:00:26 PM
+    Author     : oamesty
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body{
+	font-family: Arial, verdana, Helvetica, sans-serif;
+	font-size:13px;
+	background: #ffffff url('../images/etapaevaluacion.png') repeat-y scroll center center;
+}
+img {
+	border:0px;
+}
+.cuerpo{
+	padding: 10px 30px 10px 10px;
+	padding-top: 100px;
+	background: #ffffff url('../images/cabecera.jpg') no-repeat fixed top;
+	background: #ffffff url('../images/cabecera.jpg') no-repeat scroll center;
+}
+
+table {
+	text-align: left;
+	width:100%;
+}
+.th {
+	background-color: silver;
+	font-weight: bold;
+}
+hr{
+  	border: solid 1px #dddddd;
+}
+/* -------------------------------estilo para formularios----------- */
+/* fif = forminputfield
+   fs  = formselect
+   fib = frominputbutton
+   fl  = fieldlabel
+*/
+fieldset{
+	color: #666;
+	background: transparent url('../images/color_dependencia.png') repeat-x left top;
+	padding-top: 6px;
+	border: solid 1px #dddddd;
+	border-bottom: solid 8px #dddddd;
+	margin: 10px 0px;
+}
+legend{
+	color: #666;
+	font: 18px Arial;
+	font-weight: bold;
+	background-color: #ffffff;;
+	padding: 2px;
+}
+label{
+	text-align: right;
+	display: block;
+	margin-right: 10px;
+	position: relative;
+	width: 220px;
+	float: left;
+}
+label.fl{
+	display: inline;
+	float: none;
+}
+input.fif{
+	border: solid 1px #bba;
+	background-color: #fff;
+	color: #333;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 2px;
+}
+input.fif:hover{
+	background-color: #fff;
+	border: solid 1px #665;
+	color: #000;
+}
+textarea.fif{
+	border: solid 1px #bba;
+	background-color: #fff;
+	color: #333;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 2px;
+}
+textarea.fif:hover{
+	background-color: #eed;
+	border: solid 1px #665;
+	color: #000;
+}
+select.fs{
+	border: solid 1px #bba;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 2px;
+}
+select.fs:hover{
+	background-color: #fff;
+	border: 1px solid #665;
+	cursor: pointer;
+	color: #000;
+}
+input.fib{
+/*	border: solid 1px #000;
+	background-color: #aaa;
+	color: #300;
+	text-align: center;
+	vertical-align: middle;*/
+}
+input.fib:hover{
+/*	background-color: silver;*/
+}
+
+.boton{
+   	border: solid 1px #000;
+	background-color: #aaa;
+	color: #300;
+	text-align: center;
+	vertical-align: middle;
+    padding:2pt;
+    cursor:pointer;
+   	display: block;
+	padding: 3px 6px;
+    width:80%;
+
+}
+.boton:hover{
+	background-color: silver;
+}
+
+.seleccionable{
+    cursor:pointer;
+}
+.seleccionable:hover{
+    font-size:larger;
+    text-decoration:underline;
+	background-color: silver;
+}
+
+.contenedor{
+    width: 100%;
+/*    text-align: left;*/
+}
+.izq{
+    width: 45%;
+    float: left;
+}
+.der{
+/*    margin-left: 50%;*/
+    width: 45%;
+    float:right;
+    text-align: right;
+}
+

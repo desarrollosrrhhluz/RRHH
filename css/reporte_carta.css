@@ -1,0 +1,54 @@
+.cuerpo{
+	font-family: arial, sans-serif;
+	font-size:14px;
+	padding: 10px 30px 10px 10px ;	
+	color: #000;
+	text-align: justify;
+/*	width: 600px;*/
+}
+
+table {
+	width:100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+}
+//---------------------------------------------
+.cabecera table{
+}
+.cabecera td {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.asunto table{
+}
+.asunto td {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.contenido table{
+}
+.contenido td {
+	font-size: 14px;
+	text-align: justify;
+}
+
+
+.coletilla table{
+}
+.coletilla td {
+}
+
+.pie table{
+}
+.pie td {
+	font-size: 8px;
+	text-align: center;
+}
+
+

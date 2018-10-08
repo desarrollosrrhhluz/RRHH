@@ -1,0 +1,107 @@
+.DynarchCalendar, .DynarchCalendar-focused {
+  background-color: #ffffff;
+    font-size: 10px;
+
+}
+
+
+
+.DynarchCalendar-topBar,
+.DynarchCalendar-bottomBar,
+.DynarchCalendar-focused .DynarchCalendar-topBar,
+.DynarchCalendar-focused .DynarchCalendar-bottomBar {
+  background-color: #1e487c;
+  color: #fff;
+  text-align:center;
+}
+
+.DynarchCalendar-title div { color: #fff; }
+
+.DynarchCalendar-dayNames { background-color: #ffffff; }
+
+.DynarchCalendar-hover-navBtn div,
+.DynarchCalendar-hover-title div,
+.DynarchCalendar-hover-bottomBar-today {
+  border-color: #f4f0e8 #444038 #444038 #f4f0e8;
+  background-color: #ffffff;
+  color: #000;
+  text-align:center
+  
+}
+.DynarchCalendar-menu table td div.DynarchCalendar-hover-navBtn {
+  border-color: #f4f0e8 #444038 #444038 #f4f0e8;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.DynarchCalendar-pressed-navBtn div,
+.DynarchCalendar-pressed-title div,
+.DynarchCalendar-pressed-bottomBar-today,
+.DynarchCalendar-menu table td div.DynarchCalendar-pressed-navBtn {
+  border-color: #444038 #f4f0e8 #f4f0e8 #444038;
+  background-color: #646058;
+  color: #fff;
+}
+
+.DynarchCalendar-hover-date {
+  border-color: #f4f0e8 #444038 #444038 #f4f0e8;
+  background-color: #ffffff;
+}
+.DynarchCalendar-day {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.DynarchCalendar-day-disabled {
+  background: #c4c0b8;
+}
+
+.DynarchCalendar-hover-week { background-color: #e4e0d8 !important; }
+
+.DynarchCalendar-day-selected {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #444038 #f4f0e8 #f4f0e8 #444038;
+  margin: 0;
+}
+
+.DynarchCalendar-day-today.DynarchCalendar-day-selected { background-color: #e4e0d8; }
+
+.DynarchCalendar-menu {
+  background-color: #d4d0c8;
+}
+
+
+.DynarchCalendar, .DynarchCalendar table {
+  font-size: 10px;
+  text-align:center;
+}
+.DynarchCalendar-dayNames { padding: 0; }
+.DynarchCalendar-body { padding: 0; }
+.DynarchCalendar-animBody-back { top: 0; }
+.DynarchCalendar-animBody-fwd { top: 0; }
+.DynarchCalendar-animBody-now { top: 0; }
+.DynarchCalendar-first-col { padding-left: 0; }
+.DynarchCalendar-last-col { padding-right: 0; }
+.DynarchCalendar-weekNumber {
+  margin-right: 0;
+  padding-right: 4px !important;
+}
+.DynarchCalendar-dayNames div, .DynarchCalendar-day, .DynarchCalendar-weekNumber {
+  padding: 1px 2px;
+}
+.DynarchCalendar-menu-year { font-size: 12px; }
+
+.DynarchCalendar-hover-date {
+  padding: 0px 1px;
+}
+.DynarchCalendar-day-selected {
+  padding: 0px 1px;
+}
+.DynarchCalendar-menu table td div {
+  padding: 2px 4px;
+}
+.DynarchCalendar-menu table td div.DynarchCalendar-hover-navBtn {
+  padding: 1px 3px;
+}

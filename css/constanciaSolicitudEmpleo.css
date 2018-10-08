@@ -1,0 +1,38 @@
+.imprimible{
+	width:95%;
+	font-family: arial, sans-serif, verdana;
+	font-size:10px;
+	color: #000;
+}
+.imprimible h1 {
+	color: #000;
+	font-size:20px;
+	font-weight: bold;
+	background-color: #D3D3D3;
+	padding: 2px;
+}
+.imprimible table {
+	font-size: 10px;
+	text-align: left;
+	width:100%;
+}
+.imprimible td {
+	font-weight: bold;
+}
+.imprimible tr{
+}
+.imprimible th {
+	font-weight: bold; 
+}
+#identificador{
+	color: #000;
+	font-size:20px;
+	font-weight: bold;
+	padding: 2px;
+    text-align: center;
+}
+.observacion{
+	font-size: 10px;
+	font-weight: light;
+	text-align: left;
+}

@@ -1,0 +1,154 @@
+
+
+body{
+	font-family: Arial, verdana, Helvetica, sans-serif;
+	font-size:9px;
+        height: 100%;
+	
+}
+p{
+	font-family: Arial, verdana, Helvetica, sans-serif;
+	font-size:11px;
+       
+	
+}
+
+
+table {
+	text-align: left;
+	/*width:100%;*/
+}
+.th {
+	background-color: silver;
+	font-weight: bold;
+}
+hr{
+  	border: solid 1px #dddddd;
+}
+/* -------------------------------estilo para formularios----------- */
+/* fif = forminputfield
+   fs  = formselect
+   fib = frominputbutton
+   fl  = fieldlabel
+*/
+fieldset{
+	color: #666;
+	background: transparent url('../images/color_dependencia.png') repeat-x left top;
+	padding-top: 6px;
+	border: solid 1px #dddddd;
+	border-bottom: solid 8px #dddddd;
+	margin: 10px 0px;
+}
+legend{
+	color: #666;
+	font: 12px Arial;
+	font-weight: bold;
+	background-color: #ffffff;
+	padding: 2px;
+}
+label{
+	text-align: right;
+	display: block;
+	margin-right: 10px;
+	position: relative;
+	width: 150px;
+	float: left;
+	font-size:11px;
+}
+label.fl{
+	display: inline;
+	float: none;
+}
+input.fif{
+	border: solid 1px #bba;
+	background-color: #fff;
+	color: #333;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 2px;
+    max-width: 300px;
+}
+input.fif:hover{
+	background-color: #fff;
+	border: solid 1px #665;
+	color: #000;
+}
+textarea.fif{
+	border: solid 1px #bba;
+	background-color: #fff;
+	color: #333;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 2px;
+}
+textarea.fif:hover{
+	background-color: #eed;
+	border: solid 1px #665;
+	color: #000;
+}
+select.fs{
+	border: solid 1px #bba;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 2px;
+    max-width: 300px;
+}
+select.fs:hover{
+	background-color: #fff;
+	border: 1px solid #665;
+	cursor: pointer;
+	color: #000;
+}
+input.fib{
+/*	border: solid 1px #000;
+	background-color: #aaa;
+	color: #300;
+	text-align: center;
+	vertical-align: middle;*/
+}
+input.fib:hover{
+/*	background-color: silver;*/
+}
+
+
+.boton{
+   	border: solid 1px #000;
+	background-color: #aaa;
+	color: #300;
+	text-align: center;
+	vertical-align: middle;
+    padding:2pt;
+    cursor:pointer;
+   	display: block;
+	padding: 3px 6px;
+    width:80%;
+
+}
+.boton:hover{
+	background-color: silver;
+}
+
+.seleccionable{
+    cursor:pointer;
+}
+.seleccionable:hover{
+    font-size:larger;
+    text-decoration:underline;
+	background-color: silver;
+}
+
+.contenedor{
+    width: 100%;
+/*    text-align: left;*/
+}
+
+
+#contenedor {
+position: relative;
+min-height: 100%;
+height: auto;
+height: 100%;
+}

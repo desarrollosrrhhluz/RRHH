@@ -1,0 +1,201 @@
+/* ------------------------------------------------------------------------- */	
+/* ------------------------------------------------------------------------- */	
+/* -------------------------------estilo para la estructura de pagina------- */	
+/* colores CELESTE:rgb(159,222,255)hex(#9FDEFF) AZUL:rgb(117,174,219)hex(#77ADDB) */	
+
+body{
+	font-family: Arial, verdana, Helvetica, sans-serif;
+	font-size:13px;
+}
+img {
+	border:0px;
+}
+.cuerpo{
+	padding: 10px 30px 10px 10px;
+	/* Estas siguientes dos líneas de estilo dependen
+	de si, finalmente, se mostrarán los formularios en
+	iframe (wrapper) o como pop-up*/
+/*
+	padding-top: 100px;
+	background: #ffffff url('../images/cabecera.jpg') no-repeat fixed top;*/
+}
+
+/* -------------------------------estilo para menu vertical----------------- */	
+#menuv {
+	border: 1px solid #ACCFE8;
+	border-width: 1px 1px 0 1px;
+	width: 90%;
+	font: 90% Arial, Helvetica, sans-serif;
+}
+#menuv ul, li {
+	list-style-type: none;
+	color: #666;
+	white-space: normal;
+}
+#menuv ul {
+	margin: 0;
+	padding: 0;
+}
+#menuv li {
+	border-bottom: 1px solid #ACCFE8;
+	color: #3366CC;
+	background: #00F7FC;
+}
+#menuv a {
+	text-decoration: none;
+	color: #3366CC;
+	background: #F0F7FC;
+	display: block;
+	padding: 3px 6px;
+}
+#menuv a:hover {
+	background: #DBEBF6;
+}
+#menuvdescripcion{
+	text-align: center;
+	font-style: italic;
+	width: 100%;
+	height: 30px;
+	padding: 2px;
+}
+
+/* -------------------------------estilo para menu horizontal--------------- */	
+#menuh {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#menuh ul, li {
+	list-style-type: none;
+	color: #666;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#menuh a {
+	text-decoration: none;
+	color: #222222;
+	background: #ffffff;
+	display: block;
+	padding: 3px 10px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	font-weight: bold;
+	margin: 0px 1px;
+}
+#menuh a#primero {
+	margin-left: 2px;
+}
+#menuh a:hover {
+	background: #eeeedd;
+	border-color: #dddddd;
+	font-weight: bold;
+}
+/* -------------------------------estilo para menu horizontal--------------- */
+#menuh0 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight: bolder;
+}
+#menuh0 ul, li {
+	list-style-type: none;
+	color: #666;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#menuh0 a {
+	text-decoration: none;
+	color: #222222;
+	background: #cef; /*#ffffff;*/
+	display: block;
+	padding: 3px 10px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	font-weight: bold;
+	margin: 0px 1px;
+}
+#menuh0 a#primero {
+	margin-left: 2px;
+}
+#menuh0 a:hover {
+	background: #eeeedd;
+	border-color: #dddddd;
+	font-weight: bold;
+}
+#menuh0 a.selected {
+	text-decoration: none;
+	color: #222222;
+	background: #ffffff;
+	display: block;
+	padding: 3px 10px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	font-weight: bold;
+	margin: 0px 1px;
+	font-weight: bold;
+}
+.primer0 {
+	display: block;
+	background: #0D4081;
+	padding: 3px 10px;
+	text-align: right;
+	font-weight: bolder;
+	border: 1px solid #0D4081;
+	color: #ffffff;
+	min-width: 150px;
+	width:expression(this.width < 150? "50px" : this.width);
+}
+.primer {
+	display: block;
+	background: #0D4081;
+	padding: 3px 10px;
+	text-align: right;
+	font-weight: bolder;
+	border: 1px solid #0D4081;
+	color: #ffffff;
+	min-width: 150px;
+	width:expression(this.width < 150? "50px" : this.width); 
+}
+.ultimo {
+	text-decoration: none;
+	color: #222222;
+	background: #ffffff;
+	display: block;
+	padding: 3px 10px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	font-weight: bold;
+	margin: 0px 1px;
+}
+#nav{
+    width: 100%; /*700px;*/
+    height:30px; /*700px;*/
+}
+
+#navegal{
+    position:absolute;
+    padding: 10px;
+    left:10px;
+}
+#navegac{
+    left:50%;
+    position:fixed;
+    padding: 10px;
+    width:auto;
+}
+#navegar{
+    position:absolute;
+    padding: 10px;
+    right:10px;
+}
+
+/* -------------------------------estilo para enlaces generales --------------- */	
+
+a:link, a:visited {
+	color: #333;
+	border-bottom: 1px dotted #333;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #555;
+}

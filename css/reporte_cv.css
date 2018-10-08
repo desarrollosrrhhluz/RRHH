@@ -1,0 +1,30 @@
+.cuerpo{
+	width:90%;
+	font-family: arial, sans-serif;
+	font-size:12px;
+}
+.cuerpo h1 {
+	color: #000;
+	font-size:12px;
+	font-weight: bold;
+	background-color: #D3D3D3;
+	padding: 2px;
+}
+table {
+	width:100%;
+}
+th {
+/*	padding: 5px;*/
+	text-align: left;
+	color: #000;
+	font-weight: bold; 
+}
+tr {
+	color: #000;
+}
+.cola {
+	width: 80%;
+}
+.colb {
+	width: 20%;
+}

@@ -1,0 +1,143 @@
+/* estilo del ejemplo 1 */
+.a1, .a2, .a3, .a4{font-size:1px; overflow:hidden; display:block;}
+.a1 {height:1px; background:#ddd; margin:0 5px;}
+.a2 {height:1px; background:#ddd; margin:0 3px;}
+.a3 {height:1px; background:#ddd; margin:0 2px;}
+.a4 {height:2px; background:#ddd; margin:0 1px;}
+.acontent {background:#ddd; padding-left:5px; padding-right:5px;}
+
+/* estilo del ejemplo 2 */
+.b1, .b2, .b3, .b4{font-size:1px; overflow:hidden; display:block;}
+.b1 {height:1px; background:#888; margin:0 5px;}
+.b2 {height:1px; background:#ddd; border-right:2px solid #888; border-left:2px solid #888; margin:0 3px;}
+.b3 {height:1px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 2px;}
+.b4 {height:2px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 1px;}
+.bcontent {background:#ddd; border-right:1px solid #888; border-left:1px solid #888; padding-left:5px; padding-right:5px;}
+
+/* estilo del ejemplo 3 */
+.f1, .f2, .f3, .f4{font-size:1px; overflow:hidden; display:block;}
+.f1 {height:1px; background:#888; margin:0 5px;}
+.f2 {height:1px; border-right:2px solid #888; border-left:2px solid #888; margin:0 3px;}
+.f3 {height:1px; border-right:1px solid #888; border-left:1px solid #888; margin:0 2px;}
+.f4 {height:2px; border-right:1px solid #888; border-left:1px solid #888; margin:0 1px;}
+.fcontent {border-right:1px solid #888; border-left:1px solid #888; padding-left:5px; padding-right:5px;}
+
+/* estilo del ejemplo 4 */
+.et1, .et2, .et3, .et4, .eb1, .eb2, .eb3, .eb4{font-size:1px; overflow:hidden; display:block;}
+.et1 {height:1px; background:#888; margin:0 0 0 5px;}
+.et2 {height:1px; background:#ddd; border-right:2px solid #888; border-left:2px solid #888; margin:0 0 0 3px;}
+.et3 {height:1px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 0 0 2px;}
+.et4 {height:2px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 0 0 1px;}
+.eb1 {height:1px; background:#888; margin:0 5px;}
+.eb2 {height:1px; background:#ddd; border-right:2px solid #888; border-left:2px solid #888; margin:0 3px;}
+.eb3 {height:1px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 2px;}
+.eb4 {height:2px; background:#ddd; border-right:1px solid #888; border-left:1px solid #888; margin:0 1px;}
+.econtent {background:#ddd; border-right:1px solid #888; border-left:1px solid #888; padding-left:5px; padding-right:5px;}
+
+/* estilo del ejemplo 5 
+.ct1, .ct2, .ct3, .ct4, .cb1, .cb2, .cb3, .cb4{font-size:1px; overflow:hidden; display:block;}
+.ct1, .cb1 {height:1px; background:#606060; margin:0 5px;}
+.ct2 {height:1px; background:#ddd; border-right:2px solid #606060; border-left:2px solid #606060; margin:0 3px;}
+.ct3 {height:1px; background:#ddd; border-right:1px solid #606060; border-left:1px solid #606060; margin:0 2px;}
+.ct4 {height:2px; background:#ddd; border-right:1px solid #606060; border-left:1px solid #606060; margin:0 1px;}
+.cb2 {height:1px; background:#ddd; border-right:2px solid #606060; border-left:2px solid #606060; margin:0 3px;}
+.cb3 {height:1px; background:#ddd; border-right:1px solid #606060; border-left:1px solid #606060; margin:0 2px;}
+.cb4 {height:2px; background:#ddd; border-right:1px solid #606060; border-left:1px solid #606060; margin:0 1px;}
+.ctcontent {background:#D3D3D3; border-right:1px solid #606060; border-left:1px solid #606060; padding:0 5px 5px 5px; font-weight:bold;}
+.cbcontent {border-right:1px solid #606060; border-left:1px solid #606060; padding:5px 5px 0 5px;}
+*/
+.ct1, .ct2, .ct3, .ct4, .cb1, .cb2, .cb3, .cb4{font-size:1px; overflow:hidden; display:block;}
+.ct1 {height:1px;  border-bottom:1px solid; margin:0 5px;}
+.cb1 {height:1px;  border-top:1px solid; margin:0 5px;}
+.ct2 {height:1px; border-right:2px solid; border-left:2px solid; margin:0 3px;}
+.ct3 {height:1px; border-right:1px solid; border-left:1px solid; margin:0 2px;}
+.ct4 {height:2px; border-right:1px solid; border-left:1px solid; margin:0 1px;}
+.cb2 {height:1px; border-right:2px solid; border-left:2px solid; margin:0 3px;}
+.cb3 {height:1px; border-right:1px solid; border-left:1px solid; margin:0 2px;}
+.cb4 {height:2px; border-right:1px solid; border-left:1px solid; margin:0 1px;}
+.ctcontent {border-right:1px solid; border-left:1px solid; padding:0 5px 5px 5px; font-weight:bold;}
+.cbcontent {border-right:1px solid; border-left:1px solid; padding:5px 5px 0 5px;}
+
+
+/* estilo del ejemplo 6 */
+.dt1, .dt2, .dt3, .dt4, .db1{font-size:1px; overflow:hidden; display:block;}
+.dt1 {height:1px; background:#606060; margin:0 5px;}
+.dt2 {height:1px; background:#aaa; border-right:2px solid #606060; border-left:2px solid #606060; margin:0 3px;}
+.dt3 {height:1px; background:#aaa; border-right:1px solid #606060; border-left:1px solid #606060; margin:0 2px;}
+.dt4 {height:2px; background:#aaa; border-right:1px solid #606060; border-left:1px solid #606060; margin:0 1px;}
+.db1 {height:1px; background:#606060;}
+.dtcontent {background:#aaa; border-right:1px solid #606060; border-left:1px solid #606060; padding:0 5px 5px 5px; font-weight:bold;}
+.dbcontent {background:#ddd; border-right:1px solid #606060; border-left:1px solid #606060; padding:5px 5px 5px 5px;}
+
+
+/*
+<!-- CANTOS REDONDOS EJEMPLO 1-->
+<div class='sample'>
+<b class="a1"></b><b class="a2"></b><b class="a3"></b><b class="a4"></b>
+<div class="acontent">
+	Ejemplo 1 de bordes redondos !!!
+</div>
+<b class="a4"></b><b class="a3"></b><b class="a2"></b><b class="a1"></b>
+</div>
+
+<br />
+
+<!-- CANTOS REDONDOS EJEMPLO 2-->
+<div class='sample'>
+<b class="b1"></b><b class="b2"></b><b class="b3"></b><b class="b4"></b>
+<div class="bcontent">
+	Ejemplo 2 de bordes redondos !!!
+</div>
+<b class="b4"></b><b class="b3"></b><b class="b2"></b><b class="b1"></b>
+</div>
+
+<br />
+
+<!-- CANTOS REDONDOS EJEMPLO 3-->
+<div class='sample'>
+<b class="f1"></b><b class="f2"></b><b class="f3"></b><b class="f4"></b>
+<div class="fcontent">
+	Ejemplo 3 de bordes redondos !!!
+</div>
+<b class="f4"></b><b class="f3"></b><b class="f2"></b><b class="f1"></b>
+</div>
+
+<br />
+
+<!-- CANTOS REDONDOS EJEMPLO 4-->
+<div class='sample'>
+<b class="et1"></b><b class="et2"></b><b class="et3"></b><b class="et4"></b>
+<div class="econtent">
+	Ejemplo 4 de bordes redondos !!!
+</div>
+<b class="eb4"></b><b class="eb3"></b><b class="eb2"></b><b class="eb1"></b>
+</div>
+
+<br />
+
+<!-- CANTOS REDONDOS EJEMPLO 5-->
+<div class='sample'>
+<b class="ct1"></b><b class="ct2"></b><b class="ct3"></b><b class="ct4"></b>
+<div class="ctcontent">
+	Titulo - Ejemplo 5 de bordes redondos !!!
+</div>
+<div class="cbcontent">
+	Contenido - Ejemplo 5 de bordes redondos !!!
+</div>
+<b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b>
+</div>
+
+<br />
+
+<!-- CANTOS REDONDOS EJEMPLO 6-->
+<div class='sample'>
+<b class="dt1"></b><b class="dt2"></b><b class="dt3"></b><b class="dt4"></b>
+<div class="dtcontent">
+	Titulo - Ejemplo 6 de bordes redondos !!!
+</div>
+<div class="dbcontent">
+	Contenido - Ejemplo 6 de bordes redondos !!!
+</div>
+<b class="db1"></b>
+</div>
+*/

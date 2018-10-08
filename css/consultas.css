@@ -1,0 +1,44 @@
+.cuerpo{
+	background-color:#ffffff;
+	color:#444444;
+	width:90%;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.cuerpo h6, h5, h4, h3, h2, h1 {
+	color: #444444;
+	background-color: #eeeedd;
+	padding: 4px;
+}
+.consulta{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.consulta table {
+	width:100%;
+}
+.consulta th {
+	padding: 5px;
+	color: #FFFFFF;
+	background-color: #0D4081;
+	font-weight: bold;
+}
+.consulta a {
+	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.consulta td {
+	padding: 5px;
+	background-color: red;
+}
+.consulta tr {
+}
+.consulta tr.par td {
+	color: #000;
+	background-color: #eeeeee;
+}
+.consulta tr.impar td {
+	color: #000;
+	background-color: #ffffff;
+}
